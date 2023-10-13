@@ -1,0 +1,98 @@
+
+.fejlec {
+    background-image: url(images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.tarolo {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:black; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 15px;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+.tartalom h2 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.tartalom p {
+    text-align: center;
+    color: white;
+    opacity: 50%;
+}
+.tartalom ul {
+    list-style-type: none;
+}
+.tartalom ul  li {
+    list-style-type: none;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
+}
+.tartalomKetto {
+    background-color: black;
+    color: white;
+}
+.tartalomKetto h3 {
+    text-align: center;
+}
+.tartalomKetto p {
+    text-align: center;
+}
+.tartalomKetto ul  li {
+    list-style-type: none;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.tartalomKetto ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tartalomHarom {
+    background-color: black;
+    color: white;
+}
+.tartalomHarom h3 {
+    text-align: center;
+}
+.tartalomHarom h4 {
+    text-align: center;
+}
+.tartalomHaromKepek  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
