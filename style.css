@@ -85,8 +85,12 @@ li {
 .tartalomHarom {
     background-color: black;
     color: white;
+    
 }
 .tartalomHarom h3 {
+    text-align: center;
+}
+.tartalomHarom p {
     text-align: center;
 }
 .tartalomHarom h4 {
@@ -95,4 +99,28 @@ li {
 .tartalomHaromKepek  {
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
+}
+.gf img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 15%;
+}
+.tartalomNegy {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tartalomNegy ul {
+    text-align: left;
+}
+.tartalomNegyKepek {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.TartalomNegyCicaKepek img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15%;
 }
